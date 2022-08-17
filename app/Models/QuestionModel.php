@@ -15,4 +15,14 @@ class QuestionModel extends BaseModel
         }
         return $ar;
     }
+
+    public function addQuestion($content, $answer){
+        $sql = "INSERT INTO question(content, answer) values ('$content', '$answer')";
+        return $this -> query($sql);
+    }
+
+    public function delQuestion($id){
+        $sql = "DELETE from question where id='$id'";
+        return $this -> query($sql);
+    }
 }

@@ -23,36 +23,4 @@ class BaseModel{
 }
 
 
-//class example{
-//    public function __construct()
-//    {
-//        $db = new Database();
-//        $connect = $db -> connect();
-//        $this->connect = $connect;
-//    }
-//
-//    public function query($sql)
-//    {
-//        $db = new Database();
-//        $connect = $db -> connect();
-//        return $connect->query($sql);
-//    }
-//
-//    public function getAll(){
-//        $sql = "SELECT * FROM user";
-//        $query = $this->query($sql);
-//        $ar = [];
-//        while ($row = $query->fetch()) {
-//            array_push($ar, $row);
-//        }
-//        return $ar;
-//    }
-//
-//    public function getAllShort(){
-//        $query = $this->query("SELECT * FROM user")->fetchAll();
-//        return $query;
-//    }
-//
-//}
-
 ?>

@@ -4,26 +4,20 @@ include __DIR__ . '/vendor/autoload.php';
 use App\Models\QuestionModel;
 use App\Models\BaseModel;
 $base = new BaseModel();
-//echo $base -> query("SELECT * FROM question");
 
 $question = new QuestionModel();
 
-echo "<pre>";
-print_r($question -> getQuestion());
+//List all Question
+//echo "<pre>";
+//print_r($question -> getQuestion());
 
-//require_once('Database.php');
-// $sqlUsers = $conn->prepare("SELECT * FROM user");
-// $sqlUsers->execute();
-// $sqlUsers->setFetchMode(PDO::FETCH_ASSOC);
-// while($rowUsers = $sqlUsers->fetch()){
-//     echo "<pre>";
-//     print_r($rowUsers);
-// }
+// Add new Question
+//$content = "Cau hoi moi";
+//$answer = "Khong co dap an dung";
+//$question->addQuestion($content, $answer);
 
-// include __DIR__ . '/vendor/autoload.php';
-// use App\Database;
-// use App\example;
+// Del Question
 
-// $example = new example();
-
+$id = 5;
+$question->delQuestion($id);
 ?>
