@@ -12,9 +12,9 @@ class ComposerStaticInite867951a159f0faad925faac0b3c7cf6
     );
 
     public static $prefixLengthsPsr4 = array (
-        'c' => 
+        's' => 
         array (
-            'co0lc0der\\QueryBuilder\\' => 23,
+            'src\\' => 4,
         ),
         'S' => 
         array (
@@ -28,9 +28,9 @@ class ComposerStaticInite867951a159f0faad925faac0b3c7cf6
     );
 
     public static $prefixDirsPsr4 = array (
-        'co0lc0der\\QueryBuilder\\' => 
+        'src\\' => 
         array (
-            0 => __DIR__ . '/..' . '/co0lc0der/simple-query-builder/src',
+            0 => __DIR__ . '/../..' . '/src',
         ),
         'Symfony\\Polyfill\\Mbstring\\' => 
         array (

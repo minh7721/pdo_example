@@ -4,7 +4,6 @@
     <include_path>
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
       <path value="$PROJECT_DIR$/vendor/composer" />
-      <path value="$PROJECT_DIR$/vendor/co0lc0der/simple-query-builder" />
       <path value="$PROJECT_DIR$/vendor/symfony/var-dumper" />
     </include_path>
   </component>

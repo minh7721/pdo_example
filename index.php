@@ -8,8 +8,8 @@ $base = new BaseModel();
 $question = new QuestionModel();
 
 //List all Question
-//echo "<pre>";
-//print_r($question -> getQuestion());
+echo "<pre>";
+print_r($question -> getQuestion());
 
 // Add new Question
 //$content = "Cau hoi moi";
@@ -18,6 +18,6 @@ $question = new QuestionModel();
 
 // Del Question
 
-$id = 5;
-$question->delQuestion($id);
+//$id = 5;
+//$question->delQuestion($id);
 ?>

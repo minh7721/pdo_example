@@ -4,7 +4,8 @@
     "type": "library",
     "autoload": {
         "psr-4": {
-            "App\\": "app/"
+            "App\\": "app/",
+            "src\\": "src/"
         }
     },
     "authors": [
@@ -16,7 +17,7 @@
     "require": {
         "symfony/var-dumper": "^6.0",
         "php": ">=8.0",
-        "co0lc0der/simple-query-builder": "^0.3.0"
+        "ext-pdo": "*"
     },
     "config": { "platform-check": false }
 }
