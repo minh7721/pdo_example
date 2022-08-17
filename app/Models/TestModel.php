@@ -24,9 +24,9 @@ class TestModel
         return $results;
     }
 
-    public function getByIndex($indexes)
+    public function getByIndex($index)
     {
-        $results = $this->query->select('question')->where([['id', '=', $indexes]])->all();
+        $results = $this->query->select('question')->where([['id', '=', $index]])->all();
         return $results ?: "Ko co dau dung co tim";
     }
 
