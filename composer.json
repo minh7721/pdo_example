@@ -1,0 +1,22 @@
+{
+    "name": "minhhn/pdo",
+    "description": "Test PDO",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "minhhn",
+            "email": "nhatminh7721@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/var-dumper": "^6.0",
+        "php": ">=8.0",
+        "co0lc0der/simple-query-builder": "^0.3.0"
+    },
+    "config": { "platform-check": false }
+}
